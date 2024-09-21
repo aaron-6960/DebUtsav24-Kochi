@@ -2,22 +2,24 @@
 import React from "react";
 import Image from "next/image";
 import debutsav from "@/assets/logo.svg";
-import foss from '../assets/foss.jpeg'
+import foss from '../assets/foss.jpeg';
+
 const About = () => {
   return (
-    <div className="grid mx-auto min-h-[100vh] px-5 max-w-screen-xl grid-cols-1 md:grid-cols-2 py-5">
+    <div id="about" className="grid m-auto py-[80px] min-h-screen px-5 max-w-screen-xl grid-cols-1 md:grid-cols-2">
       <Image
         src={debutsav}
         className="hidden md:block mx-auto my-auto  md:h-80 "
         alt=""
         width={300}
         height={320}
+        data-aos="fade-up"
       />
       <div className="text-left">
         <h2 className="text-3xl md:text-5xl md:text-left text-white font-semibold py-4">
           About <span className="text-red">DebUtsav</span>
         </h2>
-        <p className="text-lg tracking-wide  md:text-lg">
+        <p className="text-lg tracking-wide  md:text-lg" data-aos="fade-left">
           DebUtsav, a conference where the Debian community gathers to celebrate
           Free and Open Source Software (FOSS), will be hosted by Model
           Engineering College. DebUtsav, organized by FOSSMEC is a unique event
@@ -32,11 +34,11 @@ const About = () => {
         </p>
       </div>
 
-      <div className="text-left  ">
+      <div className="text-left">
         <h2 className="text-3xl md:text-5xl text-left  text-white font-semibold py-4">
           About <span className="fossmec">FOSS MEC</span>
         </h2>
-        <p className="text-lg md:text-lg tracking-wide">
+        <p className="text-lg md:text-lg tracking-wide" data-aos="fade-right">
           The Free and Open Source Cell at Model Engineering College
           Kochi(FOSSMEC) is an organization run by a bunch of enthusiastic
           students who promote the use of free and open-source software (FOSS).
@@ -57,6 +59,7 @@ const About = () => {
         alt=""
         width={320}
         height={320}
+        data-aos="fade-up"
       />
     </div>
   );
