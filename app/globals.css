@@ -28,3 +28,15 @@ a:focus{
   box-shadow: 2px 4px 4px #EA9FB3;
   border-radius: 50px;
 }
+.fossmec{
+  background: linear-gradient(180deg, #fab416 0%, #ff8a00 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.countdown {
+   font-weight: 700;
+   font-size: 3.85rem;
+   color: #ffffff;
+   -webkit-text-stroke: 2px #CC1848;
+}
