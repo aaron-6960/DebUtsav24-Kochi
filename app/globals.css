@@ -4,10 +4,10 @@
 @tailwind utilities;
 
 :root {
+  @apply bg-zinc-800;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   color: #f0efef;
-  background-color: #000;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
