@@ -1,4 +1,6 @@
 import "./globals.css";
+import 'aos/dist/aos.css';
+import AOSInit from "@/utils/AOSInit";
 
 export const metadata = {
   title: "Create Next App",
@@ -8,6 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <AOSInit />
       <body
         className={`antialiased`}
       >

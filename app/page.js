@@ -6,7 +6,6 @@ import Landing from "@/components/Landing";
 import Navbar from "@/components/Navbar";
 import Speakers from "@/components/Speakers";
 import Sponsors from "@/components/Sponsors";
-import Image from "next/image";
 
 export default function Home() {
   return (
