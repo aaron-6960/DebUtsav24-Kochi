@@ -1,3 +1,6 @@
+import Chair from "@/assets/chair.jpeg";
+import ViceChair from "@/assets/vicechair.jpeg";
+
 export const NavItems = [
     {
         title: "Home",
@@ -24,6 +27,21 @@ export const NavItems = [
         link: "/#contacts"
     }
 ]
+
+export const contactData = [
+  { 
+    name: 'Nikhil M', 
+    title: 'Chairperson', 
+    phone: '+91 81295 74473',
+    image: Chair
+  },
+  { 
+    name: 'K V Varun Krishnan', 
+    title: 'Vice Chairperson', 
+    phone: '+91 94978 07759',
+    image: ViceChair
+  }
+];
 
 export const BecomeSponsorTableHeadData = ["", "Platinum", "Gold", "Silver", "Bronze", "Supporter"]
 
