@@ -1,5 +1,5 @@
 import About from "@/components/About";
-import Contacts from "@/components/Contacts";
+import Contacts from "@/components/Contacts/Contacts";
 import CountDown from "@/components/CountDown";
 import Footer from "@/components/Footer";
 import Landing from "@/components/Landing";
