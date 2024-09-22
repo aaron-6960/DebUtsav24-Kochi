@@ -19,7 +19,7 @@ const About = () => {
         <h2 className="text-3xl md:text-5xl md:text-left text-white font-semibold py-4">
           About <span className="text-red">DebUtsav</span>
         </h2>
-        <p className="text-lg tracking-wide  md:text-lg" data-aos="fade-left">
+        <p className="text-lg tracking-wide  md:text-lg" data-aos="fade-right">
           DebUtsav, a conference where the Debian community gathers to celebrate
           Free and Open Source Software (FOSS), will be hosted by Model
           Engineering College. DebUtsav, organized by FOSSMEC is a unique event
@@ -38,7 +38,7 @@ const About = () => {
         <h2 className="text-3xl md:text-5xl text-left  text-white font-semibold py-4">
           About <span className="fossmec">FOSS MEC</span>
         </h2>
-        <p className="text-lg md:text-lg tracking-wide" data-aos="fade-right">
+        <p className="text-lg md:text-lg tracking-wide" data-aos="fade-up">
           The Free and Open Source Cell at Model Engineering College
           Kochi(FOSSMEC) is an organization run by a bunch of enthusiastic
           students who promote the use of free and open-source software (FOSS).

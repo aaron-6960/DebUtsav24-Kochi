@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div
-      className='w-screen flex flex-row items-center justify-between px-6 lg:px-0 lg:justify-around py-3 fixed top-0 z-[2] bg-zinc-900'
+      className='w-screen flex flex-row items-center justify-between px-6 lg:px-0 lg:justify-around py-3 fixed top-0 z-10 bg-zinc-900'
     >
       <a href='/'>
         <Image  src={logo} alt="true" className="h-[50px] -mr-[30px]" />
@@ -29,7 +29,7 @@ const Navbar = () => {
       <div
         className={`text-gray-light transition-all duration-300 ease-in-out font-medium lg:static lg:w-max lg:h-max lg:pt-0 lg:bg-transparent lg:block lg:mr-3 fixed top-0 w-screen pt-24 h-screen z-[-1] text-center items-center ${
           mobilenav
-            ? "left-0 flex flex-col gap-8 bg-zinc-900  "
+            ? "right-0 flex flex-col gap-8 bg-zinc-900"
             : "right-full flex flex-col gap-8 text-opacity-0  "
         }`}
       >
@@ -45,7 +45,7 @@ const Navbar = () => {
             </span>
           </Link>
         ))}
-        <button className="lg:hidden block  register text-xl text-gray-light bg-red px-10 py-2">
+        <button className="lg:hidden block register text-xl text-gray-light bg-red px-10 py-2">
           <a href={"/#"}>Register</a>
         </button>
       </div>
