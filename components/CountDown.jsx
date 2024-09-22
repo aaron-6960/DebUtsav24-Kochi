@@ -46,8 +46,8 @@ const CountdownTimer = ({ targetDate=1727836200000 }) => {
   }
 
   return (
-    <div className="mb-5" data-aos="fade-up">
-        <h3 className="text-5xl text-center mb-5 uppercase font-semibold">Countdown</h3>
+    <div className="mb-5">
+      <h3 className="text-5xl text-center mb-5 uppercase font-semibold">Countdown</h3>
       <div className="w-full min-h-[200px] flex flex-col items-center justify-center ">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-16 text-center auto-cols-max">
           <div className="flex flex-col min-w-[120px] min-h-[120px] p-4 bg-neutral rounded-box text-neutral-content border-4 border-red   ">

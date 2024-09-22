@@ -9,7 +9,7 @@ import Sponsors from "@/components/Sponsors";
 
 export default function Home() {
   return (
-    <div>
+    <div className="relative">
       <Navbar />
       <Landing />
       <CountDown />
