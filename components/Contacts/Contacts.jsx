@@ -8,7 +8,7 @@ const Contacts = () => {
   ];
 
   return (
-    <div id="contacts" className='flex justify-around mb-20 flex-wrap gap-20 mx-40'>
+    <div id="contacts" className='flex justify-around mb-20 flex-wrap gap-20 sm:mx-40'>
       {contactData.map((contact, index) => (
         <ContactCard key={index} name={contact.name} email={contact.email} phone={contact.phone} />
       ))}

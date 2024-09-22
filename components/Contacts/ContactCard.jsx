@@ -2,7 +2,7 @@ import "./Contacts.css"
 
 const ContactCard = ({ name, email, phone }) => {
     return (
-        <div className="custom-border p-1 rounded-lg w-[300px] h-[400px]">
+        <div className="custom-border p-[2px] rounded-lg w-[300px] h-[400px]">
             <div className="bg-[#27272A] rounded-lg w-full h-full flex flex-col justify-around items-center">
                 <div />
                 <img src="https://via.placeholder.com/150" alt="Contact" className="w-40 h-40 rounded-full mb-2" />
