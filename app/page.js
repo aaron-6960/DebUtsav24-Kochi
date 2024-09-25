@@ -6,6 +6,7 @@ import Landing from "@/components/Landing";
 import Navbar from "@/components/Navbar";
 import Speakers from "@/components/Speakers";
 import Sponsors from "@/components/Sponsors";
+import TimelineSection from "@/components/Timeline/TimelineSection";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Landing />
       <CountDown />
       <About />
+      <TimelineSection />
       {/* <Speakers />
       <Sponsors /> */}
       <Contacts />

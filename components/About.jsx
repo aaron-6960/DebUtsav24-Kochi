@@ -6,7 +6,7 @@ import foss from '../assets/foss.jpeg';
 
 const About = () => {
   return (
-    <div id="about" className="grid m-auto py-[80px] min-h-dvh px-5 max-w-screen-xl grid-cols-1 md:grid-cols-2">
+    <div id="about" className="grid m-auto pt-[80px] min-h-dvh px-5 max-w-screen-xl grid-cols-1 md:grid-cols-2">
       <Image
         src={debutsav}
         className="hidden md:block mx-auto my-auto  md:h-80 "
