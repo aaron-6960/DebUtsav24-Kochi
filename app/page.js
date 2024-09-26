@@ -14,8 +14,8 @@ export default function Home() {
       <Landing />
       <CountDown />
       <About />
-      {/* <Speakers />
-      <Sponsors /> */}
+      {/* <Speakers />*/}
+      <Sponsors />
       <Contacts />
       <Footer />
     </div>
