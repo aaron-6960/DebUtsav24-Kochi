@@ -46,11 +46,11 @@ const Navbar = () => {
           </Link>
         ))}
         <button className="lg:hidden block register text-xl text-gray-light bg-red px-10 py-2">
-          <a href={"/#"}>Register</a>
+          <a href="https://app.formbricks.com/s/cm1ggwfvp000r123pzj996nkj">Register</a>
         </button>
       </div>
       <button className="lg:block hidden register text-xl text-gray-light bg-red px-10 py-2">
-        <a href={"/#"}>Register</a>
+        <a href="https://app.formbricks.com/s/cm1ggwfvp000r123pzj996nkj">Register</a>
       </button>
     </div>
   );
