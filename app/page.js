@@ -6,6 +6,7 @@ import Landing from "@/components/Landing";
 import Navbar from "@/components/Navbar";
 import Speakers from "@/components/Speakers";
 import Sponsors from "@/components/Sponsors";
+import Faq from "@/components/Faq/Faq";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       {/* <Speakers />*/}
       <Sponsors />
+      <Faq />
       <Contacts />
       <Footer />
     </div>

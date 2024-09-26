@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="bg-[#760D29] relative bottom-0 text-white flex pt-2 flex-col w-full justify-center items-center gap-6">
+    <div className="bg-[#760D29] relative bottom-0 text-white flex pt-2 flex-col w-full justify-center items-center gap-6 pb-5">
       <h1 className="text-2xl mt-[20px] mb-[-10px]">DebUtsav</h1>
       <p className="text-center w-11/12">
         Reach us at{" "}
@@ -119,9 +119,6 @@ const Footer = () => {
         <a href={"/becomesponsor"}>
           Become a Sponsor
         </a>
-      </div>
-      <div className="p-2 text-center text-sm flex justify-center items-center w-full bg-[#4d0518]">
-        Copyright &copy; 2024
       </div>
     </div>
   );

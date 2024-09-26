@@ -6,7 +6,10 @@ import foss from '../assets/foss.jpeg';
 
 const About = () => {
   return (
-    <div id="about" className="grid m-auto py-[80px] min-h-dvh px-5 max-w-screen-xl grid-cols-1 md:grid-cols-2 gap-10">
+    <div
+      id="about"
+      className="grid m-auto py-[80px] min-h-dvh px-5 max-w-screen-xl grid-cols-1 md:grid-cols-2 gap-10"
+    >
       <Image
         src={debutsav}
         className="hidden md:block mx-auto my-auto  md:h-80 "
@@ -20,17 +23,18 @@ const About = () => {
           About <span className="text-red">DebUtsav</span>
         </h2>
         <p className="text-lg tracking-wide  md:text-lg" data-aos="fade-right">
-          DebUtsav, a conference where the Debian community gathers to celebrate
-          Free and Open Source Software (FOSS), will be hosted by Model
-          Engineering College. DebUtsav, organized by FOSSMEC is a unique event
-          that provides individuals with the chance to collaborate, learn, and
-          contribute to the development of the FOSS community. The conference
-          will offer attendees a range of exciting opportunities, including
-          hands-on-workshops, insightful discussions, and engaging talk
-          sessions. FOSS enthusiasts will also have the chance to network with
-          other contributors and exchange ideas, which could facilitate the
-          growth of FOSS systems and contribute to the
-          advancement of technology.
+          Debutsav'24 is a one-day mini-Debian conference hosted by FOSSMEC, the
+          Free and Open Source Software community at MEC. This event is designed
+          to bring together enthusiasts and newcomers alike to explore the
+          principles of Free Software and the vital role Debian plays in the
+          tech landscape. Participants will engage in informative sessions,
+          hands-on cohort activities, and collaborative sprints, all aimed at
+          enhancing skills and fostering contributions to Debian projects.
+          Whether you’re looking to improve documentation, tackle coding
+          challenges, or simply learn more about open-source, Debutsav'24 is the
+          perfect opportunity to connect, collaborate, and innovate within a
+          welcoming community. Join us for a day of inspiration,
+          learning, and fun!
         </p>
       </div>
 
