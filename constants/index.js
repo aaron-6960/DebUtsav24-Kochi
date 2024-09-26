@@ -34,9 +34,12 @@ export const NavItems = [
 
 export const FaqData = [
   {
-    question: "Can I contribute to Debian as a technical content writer or as an experienced programmer? ",
+    question:
+      "Can I contribute to Debian as a technical content writer or as an experienced programmer? ",
     answer: `During the event, you'll have the opportunity to contribute to Debian in various ways. Here are the main areas you can focus on:
-\nDocumentation
+
+Documentation
+
 Improve existing Debian documentation
 Create new guides or tutorials
 Update package descriptions
@@ -51,31 +54,28 @@ Contribute to Debian-related web projects
 `,
   },
   {
-    question: "Is there any registration fee?",
-    answer: "Nada. Participation in the hackathon is completely free of cost.",
+    question: "Are there any pre-requisites ?",
+    answer: `1. Laptop with Debian/Ubuntu or another Linux distribution installed (preferably Debian)
+2. Basic familiarity with git and terminal usage`,
   },
   {
-    question: "When and where is the hackathon taking place?",
-    answer:
-      "The hackathon will take place on September 21 & 22 at Model Engineering College, Kochi.",
+    question: "What should I bring to the event ?",
+    answer: `- Laptop with a Debian-based system installed (if possible)
+- Notepad and pen for taking notes
+- Your enthusiasm and questions!
+`,
   },
   {
-    question: "Can I work on a project that I've already started?",
-    answer:
-      "No, all projects must be developed from scratch during the hackathon to ensure fairness and equal opportunities for all participants.",
+    question: "What can I look forward to taking away from this event?",
+    answer: `1. Understand the basics of Free Software and its importance
+2. Have a good grasp of Debian's role in the open-source community
+3. Gain hands-on experience contributing to a real open-source project
+4. Network with like-minded individuals and potential mentors
+`,
   },
   {
-    question: "What are the judging criteria?",
-    answer:
-      "Projects will be judged based on innovation, technical complexity, usability, impact, and presentation quality.",
-  },
-  {
-    question: "Should all the members of the team be from the same college?",
-    answer: "All the team members don't have to be from the same college.",
-  },
-  {
-    question: "Who is organising the hackathon?",
-    answer: "The hackathon is organised by IEEE Computer Society MEC SB.",
+    question: "Why we have an entry fee?",
+    answer: "We would like you to have the best possible experience at Debutsav'24 and for that we thought to take a small entrance fee to facilitate providing the best in terms of food and other amenities. With this we also would like to ensure commitment in-terms of participation and avoid any sort of spam registrations that may affect a genuine participant to miss out on the opportunity."
   },
 ];
 

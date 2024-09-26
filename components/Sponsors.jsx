@@ -13,7 +13,7 @@ const Sponsors = () => {
     ));
 
   return (
-    <div className="max-w-screen-xl flex flex-col px-4 py-8 mx-auto lg:gap-8 justify centre items-center md:mt-[-100px] lg:mt-[-150px]">
+    <div className="max-w-screen-xl flex flex-col px-4 py-8 mx-auto lg:gap-8 justify centre items-center">
       {/*<div className="flex flex-col justify-center items-center gap-16">
         <h2 className="text-2xl font-semibold">Platinum</h2>
         <div className="flex flex-col justify-center items-center ">
