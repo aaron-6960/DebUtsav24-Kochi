@@ -10,6 +10,10 @@ export const NavItems = [
         title: "About",
         link: "/#about"
     },
+    {
+        title: "Timeline",
+        link: "/#timeline"
+    },
     // {
     //     title: "Speakers",
     //     link: "/#speakers"
@@ -211,4 +215,28 @@ export const speakersList = [
     img: "https://avatars.githubusercontent.com/u/32333507?v=4",
     url: "https://abrahamraji.in"
   },
+]
+
+
+export const TimelineData = [
+  {
+    time: "10:00 AM - 10:45 AM",
+    title: "Intro to Free Software",
+  },
+  {
+    time: "10:45 AM - 11:30 AM",
+    title: "Intro to Debian",
+  },
+  {
+    time: "11:30 AM - 1:00 PM",
+    title: "Debian Sprint Session Begin",
+  },
+  {
+    time: "1:00 PM - 2:00 PM",
+    title: "Lunch Break",
+  },
+  {
+    time: "2:00 PM - 4:00 PM",
+    title: "Debian Sprint Session",
+  }
 ]
